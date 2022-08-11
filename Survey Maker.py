@@ -8,7 +8,7 @@ root = Tk()
 root.geometry("1000x500")
 root.title("Survey Maker")
 
-connection = mysql.connector.connect(host='localhost',database = 'sys', user='root',password='jameswei3')
+connection = mysql.connector.connect(host='<host>',database = '<database>', user='<user>',password='<password>')
 cursor = connection.cursor(buffered=True)
 
 
